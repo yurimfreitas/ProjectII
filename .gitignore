@@ -1,7 +1,6 @@
 # ignore ALL .log files
 *.log
 *.csv
-DataImporter.ipynb
 
 # ignore ALL files in ANY directory named temp
 temp/
