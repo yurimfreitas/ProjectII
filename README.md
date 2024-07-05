@@ -1,4 +1,4 @@
 # ProjectII
-Project II Predict Sales
+Project II Predict One Week Sales
 
 Real Dataset
