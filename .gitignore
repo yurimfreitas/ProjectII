@@ -2,6 +2,7 @@
 *.log
 *.csv
 *.pkl
+1-DataImporter.ipynb
 
 # ignore ALL files in ANY directory named temp
 temp/
