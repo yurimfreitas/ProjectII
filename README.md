@@ -12,3 +12,5 @@ Real Dataset
 3 - Precisa ver no chatgpt como inserir as metricas no final de todos os ficheiros acima de preferencia antes de salvar o csv final. Assim vamos perceber qual o melhor modelo e vamos saber qual o melhor pedaco (ano) com dados.
 
 4 - Precisamos fazer um ARIMAX para ter uma ou mais caracteristicas (features) e aplicamos para o melhor pedaco de dados que percebermos acima.
+
+5 - Logar tudo o que fizemos e depois eu coloco no documento
