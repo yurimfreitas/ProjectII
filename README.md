@@ -28,6 +28,6 @@ Here are some point we want to investigate in our data
 1.1. Understanding our data
 In the sales information, we can check the following fields:
 
-
+![alt text](image.png)
 Figure 1 — Sales information
 By looking at these data, it is clear that we will need to treat many columns in the next phase.
