@@ -1,16 +1,33 @@
-# ProjectII
-Project II Predict One Week Sales
+# Project II
+In this paper, we describe the entire process we used to predict one week of sales. The dataset is real and was provided by a Product Owner (PO), along with some initial information about its contents. Throughout the process, we had several conversations with the PO to better understand what some of the fields represent.
 
-Real Dataset
+The process described here includes a data analysis phase to understand the data and its relationships among all tables. Following this, we present our findings. Subsequently, we detail the ETL process used to handle the data, including populating and loading missing values, data casting, and other necessary steps. Next, we apply models such as ARIMA and Linear Models (LM) to make predictions. Finally, we explain the models and conclude with our findings.
 
-1 - No seu 5-Model.ipynb nao esta a agrupar por store e product. Pegue o mesmo modelo do 5.1-Model_by_Yuri_last_6_month.ipynb e adapte no seu para o   seu dataframe.
+For all phases, we opted to use Python for the various data treatments and model applications, including ARIMA and others. All code can be found in a GitHub repository located here https://github.com/yurimfreitas/ProjectII
 
-2 - Precisa criar todos os outros ficheiros 
-    5.2-Model_by_Fabian_2018_2019.ipynb
-    5.3-Model_by_Fabian_2019.ipynb
+Dataset
+As mentioned before, this dataset was provided by our Product Owner, and the main goal was to predict one week of sales. We received a few CSV files:
 
-3 - Precisa ver no chatgpt como inserir as metricas no final de todos os ficheiros acima de preferencia antes de salvar o csv final. Assim vamos perceber qual o melhor modelo e vamos saber qual o melhor pedaco (ano) com dados.
+Sales: This file contains 8,886,058 records of sales, including information about price, product, store, and other details about promotions and discounts.
+Product: This file contains information about the products, with a total of 699 records.
+Cities: This file contains information about the stores and their locations, with a total of 63 entries.
+Forecast Revenue: This file contains 1,943 records, representing the forecasted revenue for one month.
+1. Data Understanding
+Data understanding will help us to know all about our data:
 
-4 - Precisamos fazer um ARIMAX para ter uma ou mais caracteristicas (features) e aplicamos para o melhor pedaco de dados que percebermos acima.
+· Understanding our data
 
-5 - Logar tudo o que fizemos e depois eu coloco no documento
+· Exploring structure of data
+
+· Recognizing relationship between variables
+
+Briefly, Data Profiling tell us almost everything about data.
+
+Here are some point we want to investigate in our data
+
+1.1. Understanding our data
+In the sales information, we can check the following fields:
+
+
+Figure 1 — Sales information
+By looking at these data, it is clear that we will need to treat many columns in the next phase.
